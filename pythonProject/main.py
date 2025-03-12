@@ -25,12 +25,12 @@ def main():
             # Add functionality for Option 1 here
         elif choice == '2':
             print("You've selected Decision tree regression")
-            get_user_data()
+            userData = get_user_data()
             perform_decision_tree_regression(df,userData[0],userData[1],userData[2])
             # Add functionality for Option 2 here
         elif choice == '3':
             print("You've selected Random forrest regression")
-            get_user_data()
+            userData = get_user_data()
             perform_random_forest_regression(df,userData[0],userData[1],userData[2])
             # Add functionality for Option 3 here
         elif choice == '4':
